@@ -1747,6 +1747,7 @@ a {
 }
 .cid-uMsCAAStrs .mbr-text {
   color: #272727;
+  text-align: left;
 }
 .cid-uMsCAAStrs .mbr-amount {
   color: #FFFFFF;
@@ -1869,8 +1870,8 @@ a {
 }
 .cid-uME77Og1tG .embla__button {
   top: 50%;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin-top: -1.5rem;
   font-size: 22px;
   background-color: transparent;
@@ -1898,11 +1899,6 @@ a {
 .cid-uME77Og1tG .embla__button.embla__button--next {
   right: 0;
   margin-right: 2.5rem;
-}
-@media (max-width: 767px) {
-  .cid-uME77Og1tG .embla__button {
-    top: auto;
-  }
 }
 .cid-uME77Og1tG .embla {
   position: relative;
@@ -2217,6 +2213,11 @@ a {
 }
 .cid-uMshyyPn3a .mbr-section-title {
   color: #000000;
+}
+@media (max-width: 768px) {
+  .cid-uMshyyPn3a .mbr-section-title {
+    padding-top: 50px;
+  }
 }
 .cid-uMshyyPn3a .card-title {
   color: #000000;
