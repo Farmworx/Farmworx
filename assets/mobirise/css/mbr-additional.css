@@ -958,7 +958,7 @@ a {
   min-height: 120px;
   transition: all 0.3s;
   border-bottom-width: 0px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #272727;
 }
 .cid-uMDJqGqU5M .navbar.opened {
   transition: all 0.3s;
@@ -1216,8 +1216,8 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #124ad6;
-  color: #ffffff;
+  background: #dae1f0;
+  color: #0e3aa7;
   margin: 2px 0 0 12px;
   padding-left: 2px;
   transition: all .33s ease;
@@ -1268,7 +1268,7 @@ a {
 .cid-tbWrbrYZkX {
   padding-top: 0rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/farm20road-1536x2048.jpg");
+  background-image: url("../../../assets/images/farmworx-machine-2000x1500.jpg");
 }
 .cid-tbWrbrYZkX .mbr-fallback-image.disabled {
   display: none;
@@ -1308,7 +1308,7 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #ffffff;
+  background: #c5d4f4;
   color: #000000;
   margin: 2px 0 0 12px;
   padding-left: 2px;
@@ -1327,7 +1327,7 @@ a {
   position: relative;
   margin-top: 20rem;
   padding: 80px 160px 80px 100px;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 @media (max-width: 992px) {
   .cid-tbWrbrYZkX .title-wrapper {
@@ -1393,7 +1393,7 @@ a {
 .cid-tbWrbrYZkX .mbr-section-title,
 .cid-tbWrbrYZkX .mbr-section-btn,
 .cid-tbWrbrYZkX .title-link-wrap {
-  color: #272727;
+  color: #0e3aa7;
 }
 .cid-uMswn30kxI {
   padding-top: 6rem;
@@ -1421,7 +1421,7 @@ a {
 }
 .cid-uMswn30kxI .item-wrapper {
   position: relative;
-  background: #e5e5e5;
+  background: #e7ebf4;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1456,6 +1456,7 @@ a {
 }
 .cid-uMswn30kxI .item-title {
   text-align: left;
+  color: #254289;
 }
 .cid-uMswn30kxI .content-head {
   max-width: 800px;
@@ -1468,32 +1469,89 @@ a {
 .cid-uMswn30kxI .mbr-section-head .mbr-section-btn {
   color: #272727;
 }
-.cid-uMsm4DKYp5 {
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  background-color: #0c235c;
+.cid-uMDZSgum5m {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/farmworx-machine-2000x1500.jpeg");
 }
-.cid-uMsm4DKYp5 .item:focus,
-.cid-uMsm4DKYp5 span:focus {
-  outline: none;
+.cid-uMDZSgum5m .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-uMsm4DKYp5 .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
+.cid-uMDZSgum5m .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-uMsm4DKYp5 .content-head {
-  max-width: 800px;
+.cid-uMDZSgum5m .mbr-section-btn .btn {
+  height: 21px;
+  min-width: 70px;
+  position: relative;
+  overflow: visible;
+  padding: 0 12px 0 0;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-left: 28px;
+  box-shadow: none;
 }
-.cid-uMsm4DKYp5 .item {
-  padding: 10px 0;
-  color: #f4f4f4;
-  min-height: 90px;
+.cid-uMDZSgum5m .mbr-section-btn .btn:first-child {
+  margin-left: 9.6px;
 }
-@media (max-width: 768px) {
-  .cid-uMsm4DKYp5 .item {
-    min-height: 45px;
+.cid-uMDZSgum5m .mbr-section-btn .btn:focus {
+  box-shadow: none;
+}
+.cid-uMDZSgum5m .mbr-section-btn .btn span {
+  position: absolute;
+  right: -12px;
+  width: 18px;
+  height: 18px;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e5e5e5;
+  color: #124ad6;
+  margin: 2px 0 0 12px;
+  padding-left: 2px;
+  transition: all .33s ease;
+}
+.cid-uMDZSgum5m .mbr-section-btn .btn:hover {
+  transform: scale(1) !important;
+  color: #ffffff !important;
+}
+.cid-uMDZSgum5m .mbr-section-btn .btn:hover span {
+  width: 28px;
+  border-radius: 22px;
+  right: -28px;
+}
+.cid-uMDZSgum5m .text-wrapper {
+  margin: 0 160px;
+  position: relative;
+}
+@media (max-width: 992px) {
+  .cid-uMDZSgum5m .text-wrapper {
+    margin: 0 30px;
   }
+}
+.cid-uMDZSgum5m .text-wrapper .mbr-section-title {
+  margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .cid-uMDZSgum5m .text-wrapper .mbr-section-title {
+    margin-bottom: 12px;
+  }
+}
+.cid-uMDZSgum5m .mbr-section-title {
+  color: #FFFFFF;
+}
+.cid-uMDZSgum5m .mbr-section-title,
+.cid-uMDZSgum5m .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
 }
 .cid-uMsCAAStrs {
   padding-top: 5rem;
@@ -1592,7 +1650,7 @@ a {
   min-height: 50rem;
   margin-top: -1rem;
   padding: 60px;
-  background: #f2f2f2;
+  background: #dae1f0;
 }
 @media (max-width: 992px) {
   .cid-uMsCAAStrs .tab-content .tab-pane .card .card-container {
@@ -1630,7 +1688,7 @@ a {
 }
 .cid-uMsCAAStrs .tab-content .tab-pane .card .card-container .mbr-desc {
   padding-top: 20px;
-  border-top: 2px solid #ffffff;
+  border-top: 2px solid #0e3aa7;
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
@@ -1676,7 +1734,7 @@ a {
 }
 .cid-uMsCAAStrs .nav-tabs .nav-link.active p {
   display: block;
-  color: #f2f2f2;
+  color: #dae1f0;
   transition: all .3s ease;
   font-size: 21px;
   pointer-events: none;
@@ -1685,7 +1743,7 @@ a {
   color: #FFFFFF;
 }
 .cid-uMsCAAStrs .mbr-section-subtitle {
-  color: #272727;
+  color: #0e3aa7;
 }
 .cid-uMsCAAStrs .mbr-text {
   color: #272727;
@@ -1694,21 +1752,21 @@ a {
   color: #FFFFFF;
 }
 .cid-uMsCAAStrs .mbr-desc {
-  color: #FFFFFF;
+  color: #0e3aa7;
 }
 .cid-uMsCAAStrs .mbr-section-title,
 .cid-uMsCAAStrs .mbr-section-btn {
   color: #272727;
 }
-.cid-uMsnlhVk7j {
+.cid-uME77Og1tG {
   padding-top: 5rem;
   padding-bottom: 8rem;
   background: #272727;
 }
-.cid-uMsnlhVk7j .mbr-fallback-image.disabled {
+.cid-uME77Og1tG .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uMsnlhVk7j .mbr-fallback-image {
+.cid-uME77Og1tG .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1717,7 +1775,7 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn {
+.cid-uME77Og1tG .mbr-section-btn .btn {
   height: 21px;
   min-width: 70px;
   position: relative;
@@ -1728,13 +1786,13 @@ a {
   margin-left: 28px;
   box-shadow: none;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn:first-child {
+.cid-uME77Og1tG .mbr-section-btn .btn:first-child {
   margin-left: 9.6px;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn:focus {
+.cid-uME77Og1tG .mbr-section-btn .btn:focus {
   box-shadow: none;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn span {
+.cid-uME77Og1tG .mbr-section-btn .btn span {
   position: absolute;
   right: -12px;
   width: 18px;
@@ -1744,29 +1802,29 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #dfe4ef;
-  color: #5b80dc;
+  background: #ffffff;
+  color: #0e3aa7;
   margin: 2px 0 0 12px;
   padding-left: 2px;
   transition: all .33s ease;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn:hover {
+.cid-uME77Og1tG .mbr-section-btn .btn:hover {
   transform: scale(1) !important;
   color: #ffffff !important;
 }
-.cid-uMsnlhVk7j .mbr-section-btn .btn:hover span {
+.cid-uME77Og1tG .mbr-section-btn .btn:hover span {
   width: 28px;
   border-radius: 22px;
   right: -28px;
 }
-.cid-uMsnlhVk7j .team-card {
+.cid-uME77Og1tG .team-card {
   margin-bottom: 2rem;
   transition: all 0.3s;
 }
-.cid-uMsnlhVk7j .team-card:hover {
+.cid-uME77Og1tG .team-card:hover {
   transform: translateY(-10px);
 }
-.cid-uMsnlhVk7j .embla__slide {
+.cid-uME77Og1tG .embla__slide {
   display: flex;
   justify-content: center;
   position: relative;
@@ -1775,29 +1833,29 @@ a {
   min-height: 370px;
 }
 @media (max-width: 768px) {
-  .cid-uMsnlhVk7j .embla__slide {
+  .cid-uME77Og1tG .embla__slide {
     min-width: 88%;
     max-width: initial;
     margin-left: .6rem !important;
     margin-right: .6rem !important;
   }
 }
-.cid-uMsnlhVk7j .embla__slide .card-wrap {
+.cid-uME77Og1tG .embla__slide .card-wrap {
   position: relative;
 }
-.cid-uMsnlhVk7j .embla__slide .card-wrap img {
+.cid-uME77Og1tG .embla__slide .card-wrap img {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
   pointer-events: visible;
 }
-.cid-uMsnlhVk7j .embla__slide .card-wrap .item-wrapper {
+.cid-uME77Og1tG .embla__slide .card-wrap .item-wrapper {
   position: relative;
   padding: 40px;
   height: 100%;
 }
-.cid-uMsnlhVk7j .embla__slide .card-wrap .item-wrapper .card-title {
+.cid-uME77Og1tG .embla__slide .card-wrap .item-wrapper .card-title {
   margin: 0;
   pointer-events: visible;
   z-index: 1;
@@ -1805,11 +1863,11 @@ a {
   opacity: 0;
   transition: all .3s ease;
 }
-.cid-uMsnlhVk7j .embla__button--next,
-.cid-uMsnlhVk7j .embla__button--prev {
+.cid-uME77Og1tG .embla__button--next,
+.cid-uME77Og1tG .embla__button--prev {
   display: flex;
 }
-.cid-uMsnlhVk7j .embla__button {
+.cid-uME77Og1tG .embla__button {
   top: 50%;
   width: 60px;
   height: 60px;
@@ -1825,60 +1883,60 @@ a {
   justify-content: center;
   align-items: center;
 }
-.cid-uMsnlhVk7j .embla__button:disabled {
+.cid-uME77Og1tG .embla__button:disabled {
   cursor: default;
   display: none;
 }
-.cid-uMsnlhVk7j .embla__button:hover {
+.cid-uME77Og1tG .embla__button:hover {
   background: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
-.cid-uMsnlhVk7j .embla__button.embla__button--prev {
+.cid-uME77Og1tG .embla__button.embla__button--prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-uMsnlhVk7j .embla__button.embla__button--next {
+.cid-uME77Og1tG .embla__button.embla__button--next {
   right: 0;
   margin-right: 2.5rem;
 }
 @media (max-width: 767px) {
-  .cid-uMsnlhVk7j .embla__button {
+  .cid-uME77Og1tG .embla__button {
     top: auto;
   }
 }
-.cid-uMsnlhVk7j .embla {
+.cid-uME77Og1tG .embla {
   position: relative;
   width: 100%;
   margin-bottom: -5rem;
 }
-.cid-uMsnlhVk7j .embla__viewport {
+.cid-uME77Og1tG .embla__viewport {
   overflow: hidden;
   width: 100%;
   padding-left: 20%;
   z-index: 1;
 }
-.cid-uMsnlhVk7j .embla__viewport.is-draggable {
+.cid-uME77Og1tG .embla__viewport.is-draggable {
   cursor: grab;
 }
-.cid-uMsnlhVk7j .embla__viewport.is-dragging {
+.cid-uME77Og1tG .embla__viewport.is-dragging {
   cursor: grabbing;
 }
-.cid-uMsnlhVk7j .embla__container {
+.cid-uME77Og1tG .embla__container {
   display: flex;
   user-select: none;
   -webkit-touch-callout: none;
   -khtml-user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
-.cid-uMsnlhVk7j .embla__slide:hover .card-wrap .item-wrapper .card-title {
+.cid-uME77Og1tG .embla__slide:hover .card-wrap .item-wrapper .card-title {
   opacity: 1;
 }
-.cid-uMsnlhVk7j .item-menu-overlay {
+.cid-uME77Og1tG .item-menu-overlay {
   background: #e5e5e5;
   opacity: 0.6 !important;
   transition: all .3s ease;
 }
-.cid-uMsnlhVk7j .title-container {
+.cid-uME77Og1tG .title-container {
   margin: 0 160px 100px;
   padding: 20px 40px 0 0;
   display: flex;
@@ -1886,37 +1944,37 @@ a {
   border-top: 2px solid #b8b8b8;
 }
 @media (max-width: 992px) {
-  .cid-uMsnlhVk7j .title-container {
+  .cid-uME77Og1tG .title-container {
     display: block;
     margin: 0 30px 50px;
     padding: 12px 0 0 0;
   }
 }
-.cid-uMsnlhVk7j .title-container .title-wrapper {
+.cid-uME77Og1tG .title-container .title-wrapper {
   width: 60%;
 }
 @media (max-width: 992px) {
-  .cid-uMsnlhVk7j .title-container .title-wrapper {
+  .cid-uME77Og1tG .title-container .title-wrapper {
     width: 100%;
   }
 }
-.cid-uMsnlhVk7j .title-container .title-wrapper .mbr-section-title {
+.cid-uME77Og1tG .title-container .title-wrapper .mbr-section-title {
   margin: 0;
 }
 @media (max-width: 992px) {
-  .cid-uMsnlhVk7j .title-container .title-wrapper .mbr-section-title {
+  .cid-uME77Og1tG .title-container .title-wrapper .mbr-section-title {
     margin-bottom: 20px;
   }
 }
-.cid-uMsnlhVk7j .mbr-section-title {
+.cid-uME77Og1tG .mbr-section-title {
   color: #ffffff;
 }
-.cid-uMsnlhVk7j .card-title {
+.cid-uME77Og1tG .card-title {
   color: #FFFFFF;
 }
 .cid-uMsGxPikKx {
   padding-top: 7rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 .cid-uMsGxPikKx .mbr-fallback-image.disabled {
@@ -1941,7 +1999,7 @@ a {
   margin: auto;
   display: inline-flex;
   font-size: 2rem;
-  color: #fdfde1;
+  color: #ffffff;
   width: 40px;
   justify-content: center;
   align-items: center;
@@ -1958,12 +2016,13 @@ a {
 }
 .cid-uMsGxPikKx .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-uMszmmzoCn {
   padding-top: 5rem;
   padding-bottom: 5rem;
   overflow: hidden;
-  background-image: url("../../../assets/images/farm20road-1536x2048.jpg");
+  background-image: url("../../../assets/images/farmworx-machinery-2000x1500.jpg");
 }
 .cid-uMszmmzoCn .mbr-fallback-image.disabled {
   display: none;
@@ -2066,10 +2125,14 @@ a {
   text-align: center;
 }
 .cid-uMszmmzoCn .panel-title-edit {
-  color: #000c3f;
+  color: #0e3aa7;
 }
 .cid-uMszmmzoCn .panel-text {
   color: #000c3f;
+}
+.cid-uMszmmzoCn .panel-text,
+.cid-uMszmmzoCn .panel-body {
+  color: #272727;
 }
 .cid-uMshyyPn3a {
   padding-top: 5rem;
@@ -2167,6 +2230,39 @@ a {
 .cid-uMshyyPn3a label {
   color: #000000;
 }
+.cid-uMshyyPn3a .list,
+.cid-uMshyyPn3a .item-wrap {
+  color: #0e3aa7;
+}
+.cid-uMshyyPn3a H2 {
+  color: #0e3aa7;
+}
+.cid-uMEfKYjyEP .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-uMEfKYjyEP .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-uMEfKYjyEP .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-uMEfKYjyEP .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-uMEfKYjyEP .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
 .cid-uMDA57RW6A {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -2239,5 +2335,13 @@ a {
 }
 .cid-uMDA57RW6A .links,
 .cid-uMDA57RW6A .social-list {
+  color: #ffffff;
+}
+.cid-uMEgD4VnyN {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #272727;
+}
+.cid-uMEgD4VnyN .media-container-row .mbr-text {
   color: #ffffff;
 }
