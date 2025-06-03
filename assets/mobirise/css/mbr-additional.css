@@ -1846,6 +1846,11 @@ a {
   padding-left: 20%;
   z-index: 1;
 }
+@media (max-width: 767px) {
+  .cid-uME77Og1tG .embla__viewport {
+    padding-left: 0;
+  }
+}
 .cid-uME77Og1tG .embla__viewport.is-draggable {
   cursor: grab;
 }
